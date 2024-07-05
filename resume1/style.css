@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20rem auto;
+}
+.container{
+    background-color: aliceblue;
+    width: 70%;
+    max-width: 1000px;
+    min-height: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.container .left_side{
+    position: relative;
+    background-color: teal;
+    padding: 40px;
+}
+
+.container .right_side{
+    position: relative;
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+/**********Img*************/
+
+.practical_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+  position: relative;
+   width: 100%;
+   height: 200px;
+   background-size: cover;
+   overflow: hidden;
+   border-radius: 50%;
+}
+.contact{
+    margin-bottom: 30px;
+    padding-top: 10px;
+}
+.contact>p{
+    color: white;
+    font-family: monospace;
+    line-height: 20px;
+}
+.contact>h1{
+    font-size: 1rem;
+    padding: 10px;
+}
+.contact::after{
+    content: '';
+    position: absolute;
+    border-bottom: 3px solid rgb(187, 236, 236);
+    padding: 5px;
+    width: 70%;
+}
+    
+/************technical_Skills***********/
+.technical_Skills>p{
+    color: white;
+    font-family: monospace;
+    line-height: 20px;
+}
+.technical_Skills>h3{
+    margin-bottom: 10px;
+}
+.list_styles>ul{
+    margin-left: 20px;
+    color: white;
+    font-family: monospace;
+}
+
+/*************name*******************/
+.name>h1{
+    font-family: "Wittgenstein", serif;
+    margin-bottom: 30px;
+}
+
+.name>h1::after{
+    content: '';
+    border-bottom: 3px solid rgb(187, 236, 236);
+    width: 60%;
+    padding: 30px;
+    position: absolute;
+    left: 6%;
+}
+.details{
+    margin-left: 18%;
+}
+.education_details>div{
+    padding: 10px;
+}
+
+.education_details::after{
+    content: '';
+    border-bottom: 3px solid rgb(187, 236, 236);
+    position: absolute;
+    width: 70%;
+}
+
+/****************Project***************/
+.project{
+    padding-top: 20px;
+}
+.project>span{
+    
+}
+.roles_responsibilities>h3{
+
+}
+.roles_responsibilities>ul{
+    margin-left: 10%;
+    line-height: 30px;
+    font-family: monospace;
+    font-weight: 500;
+}
